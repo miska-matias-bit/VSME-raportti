@@ -1,0 +1,234 @@
+{
+  "company": {
+    "name": "Fokuna",
+    "businessId": "3569982-7",
+    "industry": "TOL 70200 Liikkeenjohdon konsultointi",
+    "location": "Kokkola, Suomi",
+    "employees": 0,
+    "entrepreneur": 1,
+    "revenue": "0 € (6.10.2025–31.12.2025)",
+    "ownerForm": "Yksityinen elinkeinoharjoittaja",
+    "services": [
+      "Vastuullisuusraportoinnit",
+      "Tiedolla johtamisen ja Power BI -ratkaisut",
+      "Maatalouden asiantuntijapalvelut"
+    ],
+    "contact": {
+      "website": "https://fokuna.fi",
+      "email": "miska-matias@fokuna.fi",
+      "phone": "+358401563400"
+    }
+  },
+  "years": [
+    {
+      "year": 2025,
+      "reportingPeriod": "6.10.2025 - 31.12.2025",
+      "kpi": {
+        "scope1_kg": 0.0,
+        "scope2_kg": 1.287,
+        "scope3_status": "Ei raportoitu",
+        "electricity_kwh": 49.51,
+        "emissionFactor_g_per_kwh": 26.0,
+        "source": "Fingrid, Suomen sähkönkulutuksen CO₂-päästökerroin (26 gCO₂/kWh). Viitattu 2.3.2026."
+      }
+    }
+  ],
+  "modules": {
+    "basic": [
+      {
+        "id": "B1",
+        "title": "Laatimisperusteet",
+        "description": "Raportin rajaus, periaatteet ja tietojen lähteet.",
+        "details": "Tämä vastuullisuusraportti on laadittu VSME-standardin mukaisesti ja kattaa Fokunan toiminnan ajanjaksolla 6.10.2025–31.12.2025. Raportti koskee toiminimen omaa toimintaa. Raportointi perustuu VSME Basic -moduulin (B1–B11) vaatimuksiin. Lisäksi raporttiin on sisällytetty valikoituja laajempia vastuullisuusteemoja toiminnan kehittämiseksi. Raportointikausi on toiminnan ensimmäinen toimintajakso, jolloin toiminta oli käynnistysvaiheessa. Raportointikaudella ei kertynyt liikevaihtoa, ja toiminta keskittyi palveluiden kehittämiseen, verkostoitumiseen sekä toiminnan rakenteiden rakentamiseen. Raportointi perustuu olennaisuusperiaatteeseen. Olennaisuuden arvioinnissa on huomioitu yrityksen koko, toiminnan luonne sekä vaikutusten laajuus. Asiantuntijaluonteisen ja pääosin digitaalisen toiminnan vuoksi useat ympäristö- ja sosiaaliset vaikutukset ovat raportointikaudella vähäisiä tai eivät ole sovellettavissa. Raportissa esitetyt tiedot perustuvat toiminimen omiin tietoihin ja sisäiseen seurantaan. Raportointikauden sähkönkulutus on laskettu työssä käytettyjen laitteiden energiankäytön perusteella.",
+        "status": "raportoitu",
+        "applicability": "korkea",
+        "group": "yleinen"
+      },
+      {
+        "id": "B2",
+        "title": "Kestävämpään talouteen siirtymistä koskevat käytännöt, toimintaperiaatteet ja tulevaisuuteen suuntautuvat aloitteet",
+        "description": "Vastuullisuutta ohjaavat periaatteet ja kehitystoimet.",
+        "details": "Fokunan toiminta perustuu vastuullisuuden huomioimiseen arjen päätöksenteossa ja palveluiden kehittämisessä. Raportointikaudella toiminimellä ei ollut erillisiä kirjallisia vastuullisuuspolitiikkoja, mutta vastuullisuus ohjaa toimintaa käytännön tasolla. Toimintaa ohjaavat periaatteet: toimin lainmukaisesti ja eettisesti kaikissa asiakassuhteissa; vältän eturistiriitoja ja sidonnaisuuksia; edistän vähäpäästöistä ja digitaalista työskentelyä; tuotan pk-yrityksille ratkaisuja, jotka tukevat vastuullisuuden systemaattista kehittämistä; kehitän omaa osaamistani ja toimintatapojani jatkuvasti. Raportointikaudella aloitettiin sähkönkulutuksen seuranta sekä valmisteltiin työmatkojen kirjaamista. Tavoitteena oli luoda perusta vastuullisuustiedon systemaattiselle seurannalle tulevilla raportointikausilla.",
+        "status": "raportoitu",
+        "applicability": "korkea",
+        "group": "yleinen"
+      },
+      {
+        "id": "B3",
+        "title": "Energiankulutus ja kasvihuonekaasupäästöt",
+        "description": "Energiankulutus ja kasvihuonekaasupäästöt raportointikaudella",
+        "details": "Sähkönkulutus ja siitä aiheutuvat päästöt olivat raportointikaudella vähäisiä toiminnan käynnistysvaiheen ja liiketoiminnan digitaalisen luonteen vuoksi. Toiminnassa ei ollut raportointikaudella omia ajoneuvoja, polttoaineiden kulutusta tai muuta suoraa energiankäyttöä, joten yritykselle ei syntynyt Scope 1 -päästöjä. Scope 2 -päästöt on laskettu sijaintiperusteisesti käyttäen Fingridin julkaisemaa Suomen sähkönkulutuksen päästökerrointa 26 gCO2/kWh. Scope 3 -päästöjä on raportoitu yrityskohtaisena arviona raportointikaudella hankituista pääomahyödykkeistä, joihin sisältyvät Samsung Galaxy Book5 Pro -kannettava ja Logitech MX Master 4 -hiiri.",
+        "status": "raportoitu",
+        "applicability": "korkea",
+        "group": "ympäristö"
+      },
+      {
+        "id": "B4",
+        "title": "Ilman, veden ja maaperän pilaantuminen",
+        "description": "Saastumiseen liittyvät vaikutukset.",
+        "details": "Toiminnassa ei ole tuotannollista toimintaa, kemikaalien käyttöä tai muuta toimintaa, josta aiheutuisi merkittäviä päästöjä ilmaan, veteen tai maaperään. Toiminta on asiantuntijaluonteista ja pääosin digitaalista. Saastumiseen liittyvät ympäristövaikutukset on arvioitu raportointikaudella vähäisiksi.",
+        "status": "raportoitu",
+        "applicability": "vähäinen",
+        "group": "ympäristö"
+      },
+      {
+        "id": "B5",
+        "title": "Biologinen monimuotoisuus",
+        "description": "Biodiversiteettiin liittyvät vaikutukset.",
+        "details": "Toiminnalla ei ole suoraa vaikutusta luonnon monimuotoisuuteen, joten epäsuorat vaikutukset rajoittuvat tavanomaisiin toimistotyövälineisiin ja palveluihin. Biodiversiteettiin liittyvät vaikutukset on arvioitu vähäisiksi raportointikaudella. Toiminnalla ei ole maa-alueita, tuotantolaitoksia tai toimitusketjuja, joilla olisi suoraa vaikutusta luonnon monimuotoisuuteen.",
+        "status": "raportoitu",
+        "applicability": "vähäinen",
+        "group": "ympäristö"
+      },
+      {
+        "id": "B6",
+        "title": "Vesi",
+        "description": "Vedenkäyttö ja jätevedet.",
+        "details": "Yrityksen toiminta ei sisällä teollista vedenkäyttöä eikä jätevesien muodostumista. Vedenkäyttö rajoittuu tavanomaiseen toimistotyöskentelyyn liittyvään käyttöön.",
+        "status": "raportoitu",
+        "applicability": "vähäinen",
+        "group": "ympäristö"
+      },
+      {
+        "id": "B7",
+        "title": "Resurssien käyttö, kiertotalous ja jätehuolto",
+        "description": "Materiaalikulutus ja jätevirrat.",
+        "details": "Toiminta on pääosin digitaalista ja materiaalikulutus rajoittuu tavanomaisiin toimistotyövälineisiin ja -tarvikkeisiin. Raportointikaudella ei syntynyt merkittäviä jätevirtoja. Resurssien käyttö ja jätehuolto on arvioitu vähäisiksi teemoiksi yrityksen nykyisessä toimintavaiheessa. Toiminnassa ei syntynyt raportointikaudella vaarallista jätettä.",
+        "status": "raportoitu",
+        "applicability": "vähäinen",
+        "group": "ympäristö"
+      },
+      {
+        "id": "B8",
+        "title": "Työvoima – Yleiset ominaisuudet",
+        "description": "Henkilöstön peruskuvaus raportointikaudella.",
+        "details": "Raportointikaudella yritystoimintaa harjoitti yksinyrittäjä. Työsuhteista henkilöstöä, alihankittua työvoimaa tai vuokratyövoimaa ei ollut. Toiminnan jatkuvuus ja palvelun laatu perustuvat yrittäjän osaamiseen ja työpanokseen. Koska yrityksellä ei ole työsuhteista henkilöstöä, työvoiman rakenteeseen, monimuotoisuuteen tai henkilöstömäärään liittyvät määrälliset tunnusluvut eivät ole sovellettavissa raportointikaudella.",
+        "status": "raportoitu",
+        "applicability": "korkea",
+        "group": "sosiaalinen"
+      },
+      {
+        "id": "B9",
+        "title": "Työvoima – Terveys ja turvallisuus",
+        "description": "Työturvallisuus, terveysriskit ja tapaturmat.",
+        "details": "Työskentely tapahtuu kotona ilman erillistä toimistotilaa. Toimintaan ei liity fyysisiä tuotantoriskejä tai vaarallisia työolosuhteita. Asiantuntijatyöhön liittyvät keskeiset terveysriskit liittyvät ergonomiaan, työasentoihin, kuormitukseen ja palautumiseen. Työkyky ja jaksaminen vaikuttavat suoraan toiminnan jatkuvuuteen ja asiakastyön laatuun. Raportointikaudella ei tapahtunut työtapaturmia eikä työperäisiä sairastumisia. Työterveys- ja työturvallisuusvastuu koskee yrittäjää itseään, eikä raportointikaudella ole tunnistettu sellaisia työolosuhteita, jotka edellyttäisivät erillisiä työturvallisuusjärjestelmiä.",
+        "status": "raportoitu",
+        "applicability": "korkea",
+        "group": "sosiaalinen"
+      },
+      {
+        "id": "B10",
+        "title": "Työvoima – Palkkaus, työehtosopimus ja koulutus",
+        "description": "Palkkaus, TES ja osaamisen kehittäminen.",
+        "details": "Toiminta perustuu yksinyrittäjämalliin, eikä raportointikaudella ollut työsuhteista henkilöstöä. Näin ollen työehtosopimuksia ei sovellettu raportointikaudella. Liiketoiminta perustuu osaamiseen, ja ammattitaidon ylläpito sekä kehittäminen ovat keskeisiä palvelun laadun kannalta. Raportointikaudella osaamista kehitettiin erityisesti kestävyysraportoinnin ja tiedolla johtamisen osa-alueilla. Koska yrityksellä ei ole työntekijöitä, palkkaukseen, työehtosopimuksiin tai henkilöstökoulutuksen määrällisiin mittareihin liittyviä raportointivaatimuksia ei sovelleta raportointikaudella.",
+        "status": "raportoitu",
+        "applicability": "kohtalainen",
+        "group": "sosiaalinen"
+      },
+      {
+        "id": "B11",
+        "title": "Korruptiosta ja lahjonnasta annetut tuomiot ja sakot",
+        "description": "Eettisyys ja korruption torjunta.",
+        "details": "Toiminta perustuu läpinäkyvyyteen, eettisyyteen ja lainmukaisuuteen. Asiakassuhteissa vältetään eturistiriitoja ja sidonnaisuuksia. Koska toiminta liittyy vastuullisuuteen ja tiedolla johtamiseen, luotettavuus ja riippumattomuus ovat keskeisiä periaatteita. Raportointikaudella toiminnassa ei ollut korruptioon tai lahjontaan liittyviä rikostuomioita, hallinnollisia seuraamuksia tai sakkoja.",
+        "status": "raportoitu",
+        "applicability": "korkea",
+        "group": "yleinen"
+      }
+    ],
+    "extended": [
+      {
+        "id": "C1",
+        "title": "Strategia: liiketoimintamalli ja kestävyys – asiaa koskevat aloitteet",
+        "description": "Liiketoimintamalli, arvolupaus ja kestävyyteen liittyvät aloitteet.",
+        "details": "Fokunan liiketoimintamalli perustuu asiantuntijapalveluihin, joissa vastuullisuus ja tiedolla johtaminen ovat keskeinen osa palvelua. Palvelut kohdistuvat pk-yrityksiin ja sisältävät tällä hetkellä erityisesti VSME-viitekehykseen perustuvia raportointiratkaisuja sekä Power BI -mittaristoja taloudellisen ja vastuullisuustiedon seurantaan. Vastuullisuus ei ole erillinen tukitoiminto, vaan osa ydintuotetta. Liiketoiminnan arvolupaus perustuu siihen, että asiakkaat pystyvät vastaamaan sääntelyn ja markkinoiden kasvaviin vastuullisuusvaatimuksiin hallitusti ja kustannustehokkaasti. Toiminta on asiantuntijaluonteista ja pääosin digitaalista, mikä tarkoittaa kevyttä resurssirakennetta ja vähäisiä suoria ympäristövaikutuksia. Toimintaa kehitetään seuraamalla vastuullisuuteen liittyvää sääntelyä ja markkinakehitystä. Erityistä huomiota kiinnitetään raportointivaatimusten muutoksiin sekä pk-yritysten kasvavaan vastuullisuustiedon tarpeeseen. Laajennetun moduulin teemat on sisällytetty raporttiin olennaisuusarvioinnin perusteella. Erityisesti ilmastoriskit, strateginen vastuullisuus ja eettinen liiketoiminta arvioitiin kokonaisuutena erittäin olennaisiksi. Liiketoiminnan jatkuvuus on sidoksissa vastuullisuusraportointia koskevan sääntelyn ja markkinavaatimusten kehitykseen.",
+        "status": "raportoitu",
+        "applicability": "korkea",
+        "group": "strategia"
+      },
+      {
+        "id": "C2",
+        "title": "Kuvaus kestävämpään talouteen siirtymistä koskevista käytännöistä, toimintaperiaatteista ja tulevaisuuteen suuntautuvista aloitteista",
+        "description": "Käytännöt ja tavoitteet vastuullisuuden kehittämiseen.",
+        "details": "Vastuullisuus on integroitu Fokunan liiketoimintamalliin. Vastuu vastuullisuuteen liittyvistä käytännöistä ja niiden kehittämisestä on yrittäjällä. Strategisella tasolla tavoitteena on kehittää vastuullisuuden seurantaa vaiheittain toiminnan kasvaessa. Tämä sisältää energiankulutuksen seurannan jatkamisen, työmatkojen järjestelmällisen kirjaamisen sekä raportointikäytäntöjen täsmentämisen suhteellisuusperiaate huomioiden. Vastuullisuuden kehittäminen nähdään osana liiketoiminnan laadunhallintaa ja riskienhallintaa, ei erillisenä raportointivelvoitteena.",
+        "status": "raportoitu",
+        "applicability": "korkea",
+        "group": "strategia"
+      },
+      {
+        "id": "C3",
+        "title": "Kasvihuonekaasujen vähentämistavoitteet ja ilmastosiirtymä",
+        "description": "Päästövähennystavoitteet ja ilmastosiirtymän toimet.",
+        "details": "Toiminnan suorat kasvihuonekaasupäästöt ovat vähäisiä. Raportointikaudella päästöt muodostuivat pääosin sähkönkulutuksesta (Scope 2). Polttoaineiden käyttöä tai muuta suoraa energiankulutusta ei ollut. Erillisiä numeerisia päästövähennystavoitteita ei ole asetettu raportointikaudella. Energiankulutusta seurataan ja toimintaa kehitetään resurssitehokkaaksi suhteellisuusperiaate huomioiden. Ilmastosiirtymään liittyvät toimenpiteet keskittyvät digitaaliseen toimintamalliin ja matkustamisen minimointiin.",
+        "status": "raportoitu",
+        "applicability": "korkea",
+        "group": "ilmasto"
+      },
+      {
+        "id": "C4",
+        "title": "Ilmastoriskit",
+        "description": "Fyysiset ja siirtymäriskit sekä sopeutumistoimet.",
+        "details": "Ilmastoon liittyvät fyysiset ja siirtymäriskit on arvioitu raportointikaudella. Merkittäviä fyysisiä ilmastoriskejä ei ole tunnistettu, koska toiminta ei sisällä kiinteää tuotantolaitosta, laajaa toimitusketjua tai ilmastolle altista infrastruktuuria. Tunnistetut siirtymäriskit: ilmastoon liittyvän sääntelyn (kuten päästö- ja raportointivaatimusten) muutokset; asiakkaiden kasvavat vaatimukset ilmastovaikutusten mittaamiseen ja raportointiin; ilmastosääntelyn kehittymisestä johtuva osaamisvaatimusten kasvu. Operatiivinen toiminta ei ole merkittävästi altis fyysisille ilmastoriskeille, mutta liiketoiminta on suoraan altis siirtymäriskeille, koska palvelut liittyvät kestävyysraportointiin ja sääntelyyn. Tunnistetut siirtymäriskit ovat pääosin lyhyen ja keskipitkän aikavälin riskejä. Ilmastoriskejä hallitaan seuraamalla aktiivisesti sääntelykehitystä, ylläpitämällä ajantasaista osaamista sekä kehittämällä palveluita vastaamaan muuttuvaa toimintaympäristöä. Ilmastoriskien suora ympäristövaikutus omassa toiminnassa on vähäinen, mutta niiden taloudellinen vaikutus sekä sidosryhmävaikutus on merkittävä. Tämän vuoksi ilmastoriskit on arvioitu kokonaisuutena erittäin olennaisiksi.",
+        "status": "raportoitu",
+        "applicability": "korkea",
+        "group": "ilmasto"
+      },
+      {
+        "id": "C5",
+        "title": "Työvoiman ominaispiirteitä koskevat lisätiedot",
+        "description": "Lisäkuvaus työvoimasta ja vastuullisuustoimista.",
+        "details": "Raportointikaudella yritystoimintaa harjoitti yksi yrittäjä. Yrityksellä ei ollut työsuhteista henkilöstöä. Työvoimaan liittyvät vastuullisuustoimet keskittyvät osaamisen jatkuvaan kehittämiseen, työkyvyn ylläpitämiseen sekä eettiseen ja riippumattomaan asiantuntijatyöhön. Koska yrityksellä ei ole työntekijöitä, useat henkilöstöön liittyvät mittarit eivät ole sovellettavissa raportointikaudella.",
+        "status": "raportoitu",
+        "applicability": "korkea",
+        "group": "sosiaalinen"
+      },
+      {
+        "id": "C6",
+        "title": "Omaa työvoimaa koskevat lisätiedot – Ihmisoikeuksia koskevat toimintaperiaatteet ja prosessit",
+        "description": "Ihmisoikeuksiin liittyvät periaatteet omassa toiminnassa.",
+        "details": "Yrityksellä ei ole työsuhteista henkilöstöä. Toiminta perustuu yksinyrittäjämalliin. Ihmisoikeuksiin liittyvät periaatteet rajoittuvat lainsäädännön noudattamiseen, syrjimättömyyteen ja tietosuojan varmistamiseen asiakastyössä. Raportointikaudella ei ole tunnistettu ihmisoikeusriskejä omassa toiminnassa.",
+        "status": "raportoitu",
+        "applicability": "korkea",
+        "group": "sosiaalinen"
+      },
+      {
+        "id": "C7",
+        "title": "Vakavat ihmisoikeuksien loukkaukset",
+        "description": "Vakavat loukkaukset ja toimitusketjun näkökulma.",
+        "details": "Yrityksen toiminta on asiantuntijapalvelua ilman tuotannollista toimintaa tai laajaa toimitusketjua. Raportointikaudella ei ole tunnistettu vakavia ihmisoikeuksien loukkauksia omassa toiminnassa eikä tiedossa ole sellaisia toimitusketjuun liittyviä tapauksia. Toimittajavalinnoissa huomioidaan lainsäädännön noudattaminen ja yleiset vastuullisuusperiaatteet.",
+        "status": "raportoitu",
+        "applicability": "korkea",
+        "group": "sosiaalinen"
+      },
+      {
+        "id": "C8",
+        "title": "Tietyistä toiminnoista saadut tulot ja sulkeminen EU:n vertailuarvojen ulkopuolelle",
+        "description": "EU:n vertailuarvojen ulkopuolelle rajatut tulot.",
+        "details": "Yrityksen liiketoiminta koostuu asiantuntijapalveluista, jotka liittyvät vastuullisuusraportointiin ja tiedolla johtamiseen. Yritys ei saa tuloja toimialoilta, jotka on EU:n sääntelyssä rajattu kestävän rahoituksen tai vertailuarvojen ulkopuolelle. Raportointikaudella ei ole tunnistettu toimintaa, joka olisi ristiriidassa EU:n kestävyyttä koskevien periaatteiden kanssa.",
+        "status": "raportoitu",
+        "applicability": "korkea",
+        "group": "hallinto"
+      },
+      {
+        "id": "C9",
+        "title": "Hallintoelimen sukupuolijakauma",
+        "description": "Hallintoelimen sukupuolijakauma (jos sovellettavissa).",
+        "details": "Fokuna on yksityinen elinkeinoharjoittaja. Toimintaa harjoittaa yksi yrittäjä, eikä toiminnassa ole erillistä hallitusta, johtoryhmää tai muuta hallintoelintä. Tämän vuoksi hallintoelimen sukupuolijakaumaa koskeva tieto ei ole sovellettavissa raportointikaudella.",
+        "status": "ei sovellettavissa",
+        "applicability": "korkea",
+        "group": "hallinto"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "name": "Fingrid",
+      "url": "https://www.fingrid.fi/sahkomarkkinainformaatio/co2/",
+      "description": "Sähköntuotannon ja -kulutuksen CO2-päästöarviot."
+    },
+    {
+      "name": "EFRAG VSME Standard",
+      "url": "https://eur-lex.europa.eu/legal-content/FI/TXT/PDF/?uri=OJ:L_202501710",
+      "description": "Vapaaehtoinen kestävyysraportointistandardi pienille ja keskisuurille yrityksille."
+    }
+  ]
+}

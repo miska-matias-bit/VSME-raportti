@@ -1,0 +1,622 @@
+{
+ "documentInfo": {
+  "documentType": "https://xbrl.org/2021/xbrl-json",
+  "features": {
+   "xbrl:canonicalValues": true
+  },
+  "namespaces": {
+   "iso4217": "http://www.xbrl.org/2003/iso4217",
+   "scheme": "https://euid.eu/",
+   "utr": "http://www.xbrl.org/2009/utr",
+   "vsme": "https://xbrl.efrag.org/taxonomy/vsme/2026-02-01/vsme",
+   "waste": "https://xbrl.efrag.org/taxonomy/waste/2026-02-01/waste",
+   "xbrl": "https://xbrl.org/2021",
+   "xbrli": "http://www.xbrl.org/2003/instance"
+  },
+  "taxonomy": [
+   "https://xbrl.efrag.org/taxonomy/vsme/2026-02-01/vsme-all.xsd"
+  ]
+ },
+ "facts": {
+  "f1": {
+   "value": "vsme:OptionBBasicModuleAndComprehensiveModuleMember",
+   "dimensions": {
+    "concept": "vsme:BasisForPreparation",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00"
+   }
+  },
+  "f2": {
+   "value": "vsme:IndividualMember",
+   "dimensions": {
+    "concept": "vsme:BasisForReporting",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00"
+   }
+  },
+  "f4": {
+   "value": "vsme:SoleProprietorshipMember",
+   "dimensions": {
+    "concept": "vsme:UndertakingsLegalForm",
+    "entity": "scheme:FI3569982",
+    "period": "2026-01-01T00:00:00"
+   }
+  },
+  "f5": {
+   "value": "_:NACE_N7020",
+   "dimensions": {
+    "concept": "vsme:NaceSectorClassificationCodes",
+    "entity": "scheme:FI3569982",
+    "period": "2026-01-01T00:00:00"
+   }
+  },
+  "f9": {
+   "value": "vsme:AverageDuringTheReportingPeriodMember",
+   "dimensions": {
+    "concept": "vsme:EmployeeCountingMethodology",
+    "entity": "scheme:FI3569982",
+    "period": "2026-01-01T00:00:00"
+   }
+  },
+  "f10": {
+   "value": "vsme:Full-TimeEquivalentFTEMember",
+   "dimensions": {
+    "concept": "vsme:TypeOfNumberOfEmployees",
+    "entity": "scheme:FI3569982",
+    "period": "2026-01-01T00:00:00"
+   }
+  },
+  "f11": {
+   "value": "_2:FI",
+   "dimensions": {
+    "concept": "vsme:CountryOfPrimaryOperationsAndLocationOfSignificantAssets",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00"
+   }
+  },
+  "f15": {
+   "value": "_2:FI",
+   "dimensions": {
+    "concept": "vsme:CountryOfSite",
+    "entity": "scheme:FI3569982",
+    "period": "2026-01-01T00:00:00",
+    "vsme:IdentifierOfSiteTypedAxis": "1"
+   }
+  },
+  "f16": {
+   "value": "vsme:BusinessConductMember vsme:CircularEconomyMember vsme:ClimateChangeMember",
+   "dimensions": {
+    "concept": "vsme:SustainabilityIssueAddressedByPracticePolicyAndOrFutureInitiative",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00"
+   }
+  },
+  "f3": {
+   "value": "false",
+   "dimensions": {
+    "concept": "vsme:ReportContainsDisclosuresFromThePreviousReportingPeriodThatRemainUnchanged",
+    "entity": "scheme:FI3569982",
+    "period": "2026-01-01T00:00:00"
+   }
+  },
+  "f6": {
+   "value": "0.0",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:Assets",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "f7": {
+   "value": "0.0",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:Turnover",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "f8": {
+   "value": "0.0",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:NumberOfEmployees",
+    "entity": "scheme:FI3569982",
+    "period": "2026-01-01T00:00:00"
+   }
+  },
+  "f12": {
+   "value": "Lohitie 12 C9",
+   "dimensions": {
+    "concept": "vsme:AddressOfSite",
+    "entity": "scheme:FI3569982",
+    "period": "2026-01-01T00:00:00",
+    "vsme:IdentifierOfSiteTypedAxis": "1"
+   }
+  },
+  "f13": {
+   "value": "68210",
+   "dimensions": {
+    "concept": "vsme:PostalCodeOfSite",
+    "entity": "scheme:FI3569982",
+    "period": "2026-01-01T00:00:00",
+    "vsme:IdentifierOfSiteTypedAxis": "1"
+   }
+  },
+  "f14": {
+   "value": "Kokkola",
+   "dimensions": {
+    "concept": "vsme:CityOfSite",
+    "entity": "scheme:FI3569982",
+    "period": "2026-01-01T00:00:00",
+    "vsme:IdentifierOfSiteTypedAxis": "1"
+   }
+  },
+  "f17": {
+   "value": "0.05",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:TotalEnergyConsumption",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00",
+    "unit": "utr:MWh"
+   }
+  },
+  "f18": {
+   "value": "0.0",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:GrossScope1GreenhouseGasEmissions",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00",
+    "unit": "utr:tCO2e"
+   }
+  },
+  "f19": {
+   "value": "0.0",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:GrossLocationBasedScope2GreenhouseGasEmissions",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00",
+    "unit": "utr:tCO2e"
+   }
+  },
+  "f20": {
+   "value": "0.0",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:GrossMarketBasedScope2GreenhouseGasEmissions",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00",
+    "unit": "utr:tCO2e"
+   }
+  },
+  "f21": {
+   "value": "0.0",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:TotalGrossLocationBasedScope1AndScope2GHGEmissions",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00",
+    "unit": "utr:tCO2e"
+   }
+  },
+  "f22": {
+   "value": "0.0",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:TotalGrossMarketBasedScope1AndScope2GHGEmissions",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00",
+    "unit": "utr:tCO2e"
+   }
+  },
+  "f23": {
+   "value": "0.0",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:TotalAmountOfWaterWithdrawnFromAllSites",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00",
+    "unit": "utr:m3"
+   }
+  },
+  "f24": {
+   "value": "0.0",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:AmountOfWaterWithdrawnAtSitesLocatedInAreasOfHighWaterStress",
+    "entity": "scheme:FI3569982",
+    "period": "2026-01-01T00:00:00",
+    "unit": "utr:m3"
+   }
+  },
+  "f25": {
+   "value": "true",
+   "dimensions": {
+    "concept": "vsme:UndertakingAppliesCircularEconomyPrinciples",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00"
+   }
+  },
+  "f26": {
+   "value": "The undertaking applies circular economy principles by delivering its services digitally and minimising the use of materials. IT equipment is acquired for long-term use and replaced only when technically necessary. The undertaking does not engage in physical production or material-intensive processes.",
+   "dimensions": {
+    "concept": "vsme:DescriptionOfHowCircularEconomyPrinciplesAreApplied",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00"
+   }
+  },
+  "f27": {
+   "value": "0.0",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:WasteDivertedToRecycleOrReuseMass",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00",
+    "vsme:TypeOfWasteAxis": "waste:W-200301-Non-Hazardous-MixedMunicipalWasteMember",
+    "unit": "utr:kg"
+   }
+  },
+  "f28": {
+   "value": "0.0",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:WasteDirectedToDisposalMass",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00",
+    "vsme:TypeOfWasteAxis": "waste:W-200301-Non-Hazardous-MixedMunicipalWasteMember",
+    "unit": "utr:kg"
+   }
+  },
+  "f29": {
+   "value": "0.0",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:TotalWasteRecycledReusedAndDirectedToDisposalMass",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00",
+    "vsme:TypeOfWasteAxis": "waste:W-200301-Non-Hazardous-MixedMunicipalWasteMember",
+    "unit": "utr:kg"
+   }
+  },
+  "f30": {
+   "value": "0.0",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:TotalHazardousWasteGeneratedMass",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00",
+    "unit": "utr:kg"
+   }
+  },
+  "f31": {
+   "value": "0.0",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:TotalNonHazardousWasteGeneratedMass",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00",
+    "unit": "utr:kg"
+   }
+  },
+  "f32": {
+   "value": "0.0",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:TotalWasteGeneratedMass",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00",
+    "unit": "utr:kg"
+   }
+  },
+  "f33": {
+   "value": "0.0",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:TotalHazardousWasteGeneratedVolume",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00",
+    "unit": "utr:m3"
+   }
+  },
+  "f34": {
+   "value": "0.0",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:TotalNonHazardousWasteGeneratedVolume",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00",
+    "unit": "utr:m3"
+   }
+  },
+  "f35": {
+   "value": "0.0",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:TotalWasteGeneratedVolume",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00",
+    "unit": "utr:m3"
+   }
+  },
+  "f36": {
+   "value": "0.0",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:NumberOfPermanentContractEmployees",
+    "entity": "scheme:FI3569982",
+    "period": "2026-01-01T00:00:00"
+   }
+  },
+  "f37": {
+   "value": "0.0",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:NumberOfTemporaryContractEmployees",
+    "entity": "scheme:FI3569982",
+    "period": "2026-01-01T00:00:00"
+   }
+  },
+  "f38": {
+   "value": "0.0",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:NumberOfMaleEmployees",
+    "entity": "scheme:FI3569982",
+    "period": "2026-01-01T00:00:00"
+   }
+  },
+  "f39": {
+   "value": "0.0",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:NumberOfFemaleEmployees",
+    "entity": "scheme:FI3569982",
+    "period": "2026-01-01T00:00:00"
+   }
+  },
+  "f40": {
+   "value": "0.0",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:NumberOfOtherGenderEmployees",
+    "entity": "scheme:FI3569982",
+    "period": "2026-01-01T00:00:00"
+   }
+  },
+  "f41": {
+   "value": "0.0",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:NumberOfNonReportedGenderEmployees",
+    "entity": "scheme:FI3569982",
+    "period": "2026-01-01T00:00:00"
+   }
+  },
+  "f42": {
+   "value": "0.0",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:NumberOfRecordableWorkRelatedAccidentsInTheReportingPeriod",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00"
+   }
+  },
+  "f43": {
+   "value": "0.0",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:NumberOfFatalitiesAsAResultOfWorkRelatedInjuriesAndWorkRelatedIllHealth",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00"
+   }
+  },
+  "f44": {
+   "value": "true",
+   "dimensions": {
+    "concept": "vsme:EmployeesReceivePayEqualOrAboveMinimumWageDeterminedByNationalLawOrCollectiveAgreement",
+    "entity": "scheme:FI3569982",
+    "period": "2026-01-01T00:00:00"
+   }
+  },
+  "f45": {
+   "value": "0.0",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:AverageNumberOfAnnualTrainingHoursPerMaleEmployee",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00"
+   }
+  },
+  "f46": {
+   "value": "0.0",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:AverageNumberOfAnnualTrainingHoursPerFemaleEmployee",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00"
+   }
+  },
+  "f47": {
+   "value": "0.0",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:AverageNumberOfAnnualTrainingHoursPerOtherGenderEmployee",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00"
+   }
+  },
+  "f48": {
+   "value": "0.0",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:AverageNumberOfAnnualTrainingHoursPerNonReportedGenderEmployee",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00"
+   }
+  },
+  "f49": {
+   "value": "The undertaking provides sustainability reporting advisory services, including VSME reporting solutions, as well as the development of data-driven management practices and Power BI dashboards for SMEs.",
+   "dimensions": {
+    "concept": "vsme:DescriptionOfSignificantGroupsOfProductsAndOrServicesOffered",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00"
+   }
+  },
+  "f50": {
+   "value": "The primary market consists of Finnish small and medium-sized enterprises (SMEs), particularly within professional and service-oriented sectors. The undertaking operates on a business-to-business (B2B) basis.",
+   "dimensions": {
+    "concept": "vsme:DescriptionOfSignificantMarketsTheUndertakingOperatesIn",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00"
+   }
+  },
+  "f51": {
+   "value": "The undertaking\u2019s clients are small and medium-sized enterprises (SMEs). Operations are based on direct client relationships without intermediaries. Key suppliers relate to standard digital tools and software services used in the provision of advisory services.",
+   "dimensions": {
+    "concept": "vsme:DescriptionOfMainBusinessRelationships",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00"
+   }
+  },
+  "f52": {
+   "value": "Sustainability considerations are integrated into the undertaking\u2019s business model. The services support clients in their transition towards more sustainable operations. Activities are primarily digital and resource-light, and sustainability-related information is used in the ongoing development of services.",
+   "dimensions": {
+    "concept": "vsme:DescriptionOfKeyElementsOfStrategyThatRelatesToOrAffectsSustainabilityIssues",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00"
+   }
+  },
+  "f53": {
+   "value": "Sustainability is integrated into Fokuna\u2019s business model. Operations are based on a digital and resource-light approach. During the reporting period, monitoring of energy consumption was initiated and preparations were made to establish a systematic recording of business travel. In equipment procurement, used or long-life solutions are preferred where feasible. Responsibility for sustainability-related practices and their development lies with the entrepreneur.",
+   "dimensions": {
+    "concept": "vsme:DescriptionOfPracticesPoliciesAndOrFutureInitiatives",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00"
+   }
+  },
+  "f54": {
+   "value": "Miska-Matias Kettunen",
+   "dimensions": {
+    "concept": "vsme:MostSeniorLevelAccountableForImplementationOfPolicies",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00"
+   }
+  },
+  "f55": {
+   "value": "No separate quantitative targets were established during the reporting period. The undertaking\u2019s objective is to progressively develop a more systematic approach to monitoring sustainability-related information as operations grow, taking into account the principle of proportionality.",
+   "dimensions": {
+    "concept": "vsme:DescriptionOfATargetRelatedToAPolicy",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00"
+   }
+  },
+  "f56": {
+   "value": "false",
+   "dimensions": {
+    "concept": "vsme:UndertakingHasACodeOfConductOrHumanRightsPolicyForItsOwnWorkforce",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00"
+   }
+  },
+  "f57": {
+   "value": "false",
+   "dimensions": {
+    "concept": "vsme:UndertakingHasAComplaintHandlingMechanismForItsOwnWorkforce",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00"
+   }
+  },
+  "f58": {
+   "value": "false",
+   "dimensions": {
+    "concept": "vsme:UndertakingHasConfirmedHumanRightsIncidentsInItsOwnWorkforce",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00"
+   }
+  },
+  "f59": {
+   "value": "false",
+   "dimensions": {
+    "concept": "vsme:UndertakingIsAwareOfAnyConfirmedIncidentsInvolvingWorkersInTheValueChainAffectedCommunitiesConsumersAndEndUsers",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00"
+   }
+  },
+  "f60": {
+   "value": "false",
+   "dimensions": {
+    "concept": "vsme:UndertakingsAreExcludedFromAnyEuReferenceBenchmarksThatAreAlignedWithTheParisAgreement",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00"
+   }
+  },
+  "f61": {
+   "value": "The reporting period covers 6 October 2025 to 31 December 2025. The undertaking commenced its operations during this period. No turnover was generated during the reporting period. Consequently, greenhouse gas emission intensity per turnover is not considered a meaningful performance indicator for this reporting period. Financial figures are based on the accounting information available at the reporting date. The final year-end financial statements had not yet been prepared at the time of reporting.",
+   "dimensions": {
+    "concept": "vsme:DisclosureOfAnyOtherGeneralAndOrEntitySpecificInformation",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00"
+   }
+  },
+  "f62": {
+   "value": "During the reporting period, total electricity consumption amounted to 0.04951 MWh (49.51 kWh). Scope 2 greenhouse gas emissions (location-based) were calculated using the average emission factor for electricity generation in Finland (26 gCO\u2082/kWh). Based on this methodology, Scope 2 emissions amount to 0.001287 tCO\u2082e. Values in the report are presented with two decimal precision; therefore, Scope 2 emissions are displayed as 0.00 tCO\u2082e, although the unrounded value is included in the total emissions calculation.",
+   "dimensions": {
+    "concept": "vsme:DisclosureOfAnyOtherEnvironmentalAndOrEntitySpecificEnvironmentalDisclosures",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00"
+   }
+  },
+  "f63": {
+   "value": "The undertaking had no employees during the reporting period and therefore no additional social disclosures are applicable.",
+   "dimensions": {
+    "concept": "vsme:DisclosureOfAnyOtherSocialAndOrEntitySpecificSocialDisclosures",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00"
+   }
+  },
+  "f64": {
+   "value": "The undertaking is a sole proprietorship and does not have a separate governance body. Governance responsibilities rest with the entrepreneur.",
+   "dimensions": {
+    "concept": "vsme:DisclosureOfAnyOtherGovernanceAndOrEntitySpecificGovernanceDisclosures",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00"
+   }
+  },
+  "f65": {
+   "value": "0.25",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:GrossScope3GreenhouseGasEmissions",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00",
+    "unit": "utr:tCO2e"
+   }
+  },
+  "f66": {
+   "value": "0.25",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:TotalGrossLocationBasedGHGEmissions",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00",
+    "unit": "utr:tCO2e"
+   }
+  },
+  "f67": {
+   "value": "0.25",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "vsme:TotalGrossMarketBasedGHGEmissions",
+    "entity": "scheme:FI3569982",
+    "period": "2025-10-06T00:00:00/2026-01-01T00:00:00",
+    "unit": "utr:tCO2e"
+   }
+  }
+ }
+}
