@@ -542,9 +542,9 @@ export default function App() {
             icon={<Leaf className="w-5 h-5" />}
             info={
               <InfoTooltip 
-                method="MENETELMÄ: Scope 3 -päästöt on koottu yrityskohtaisena arviona raportointikauden aikana hankituista liiketoiminnan käyttöön tarkoitetuista pääomahyödykkeistä." 
-                basis="PERUSTE: Mukana ovat Samsung Galaxy Book5 Pro 14 -kannettava ja Logitech MX Master 4 -hiiri."
-                factorSource="LÄHDE / KERROIN: Samsung Galaxy Book5 Pro 14 -kannettavan valmistajan julkaisema elinkaariarvio (LCA): 240.0 kg CO2e. Logitech MX Master 4 -hiiren arvio perustuu Logitech MX Master 3S Bluetooth Edition -mallin julkaistuun hiilijalanjälkitietoon 7.78 kg CO2e, jota käytetään proxy-arvona, koska täsmällisen MX Master 4 -mallin tuotekohtaista lukua ei ollut saatavilla raportointiajankohtana."
+                method="Scope 3 -päästöt on koottu yrityskohtaisena arviona raportointikauden aikana hankituista liiketoiminnan käyttöön tarkoitetuista pääomahyödykkeistä." 
+                basis="Mukana ovat Samsung Galaxy Book5 Pro 14 -kannettava ja Logitech MX Master 4 -hiiri."
+                factorSource="Samsung Galaxy Book5 Pro 14 -kannettavan valmistajan julkaisema elinkaariarvio (LCA): 240.0 kg CO2e. Logitech MX Master 4 -hiiren arvio perustuu Logitech MX Master 3S Bluetooth Edition -mallin julkaistuun hiilijalanjälkitietoon 7.78 kg CO2e, jota käytetään proxy-arvona, koska täsmällisen MX Master 4 -mallin tuotekohtaista lukua ei ollut saatavilla raportointiajankohtana."
                 exactValue={currentYearData?.kpi?.scope3_kg_raw 
                   ? `${(currentYearData.kpi.scope3_kg_raw / 1000).toFixed(2)} tCO2e` 
                   : undefined}
